@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+   "build": "next build --webpack",
     "dev": "next dev",
-    "build": "next build",
     "export": "next export",
     "start": "next start",
-    "lint": "next lint",
+       "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "deploy": "vercel --prod"
   },
   "dependencies": {
