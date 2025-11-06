@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently Developing My Skills",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,132 +72,156 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Ocean - CRM Dashboard for Engineering Teams",
+    des: "A powerful CRM dashboard built with Next.js and Tailwind CSS to boost engineering team productivity with task management, meeting scheduling, and real-time analytics.",
+    img: "/ocen.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://ocean-ten.vercel.app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Nebras Academy - Educational Platform",
+    des: "A modern educational website for a real client, featuring course browsing, responsive design, and smooth user experience using React and Tailwind CSS.",
+    img: "/nebras.png",
+    iconLists: ["/re.svg", "/tail.svg", "/Vite1.jpeg"],
+    link: "https://nebrasacadem.netlify.app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Bidaya 1447 - Islamic Learning Portal",
+    des: "A clean, responsive Islamic educational platform built for a real client with React, Tailwind CSS, and mobile-first design.",
+    img: "/bidaya.png",
+    iconLists: ["/re.svg", "/tail.svg", "/Vite1.jpeg"],
+    link: "https://bidaya1447.netlify.app",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Food Delivery App - Multi-Language",
+    des: "A fully functional food delivery web app with i18n support (Arabic/English), cart system, and modern UI using React, Tailwind, and React Router.",
+    img: "/foodDelivary.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://food-delivery-afathi.vercel.app",
+  },
+  {
+    id: 5,
+    title: "Kanban Board - Task Management",
+    des: "Interactive drag-and-drop Kanban board for task tracking, built with React and Tailwind CSS for smooth animations and responsive layout.",
+    img: "/kanban board.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://kanban-board-app-eight-rosy.vercel.app",
+  },
+  {
+    id: 6,
+    title: "Shopping Cart with Redux",
+    des: "E-commerce shopping cart with product filtering, cart persistence, and state management using Redux, React, and Tailwind CSS.",
+    img: "/shopping cart.png",
+    iconLists: ["/re.svg", "/tail.svg", "/re.png"],
+    link: "https://shopping-cart-drab-beta.vercel.app",
+  },
+  {
+    id: 7,
+    title: "Age Calculator - Vanilla JS",
+    des: "A beautiful, animated age calculator with spiritual messages, built using pure HTML, CSS (glassmorphism), and Vanilla JavaScript.",
+    img: "/age calc.png",
+    iconLists: ["/html.jpeg", "/css.png", "/js.png"],
+    link: "https://abdelrahmanfathyradwan.github.io/Age-Calculator",
+  },
+  {
+    id: 8,
+    title: "GitHub Repo Finder - Vanilla JS",
+    des: "Search and explore GitHub repositories with live API integration, built with Vanilla JavaScript and responsive design.",
+    img: "/Repo finder.png",
+    iconLists: ["/html.jpeg", "/css.png", "/js.png"],
+    link: "https://abdelrahmanfathyradwan.github.io/Github-Repo-Finder",
+  },
+  {
+    id: 9,
+    title: "Modern Calculator - Glassmorphism",
+    des: "Sleek calculator with keyboard support, animations, and glassmorphism design using pure Vanilla JavaScript.",
+    img: "/calc.png",
+    iconLists: ["/html.jpeg", "/css.png", "/js.png"],
+    link: "https://abdelrahmanfathyradwan.github.io/Calculator",
+  },
+  {
+    id: 10,
+    title: "To-Do List App - Vanilla JS",
+    des: "Simple, elegant to-do list with local storage, task editing, and smooth animations using only Vanilla JavaScript.",
+    img: "/todoApp.png",
+    iconLists: ["/html.jpeg", "/css.png", "/js.png"],
+    link: "https://abdelrahmanfathyradwan.github.io/ToDOList",
+  },
+  {
+    id: 11,
+    title: "Landing Page for Engineer",
+    des: "Simple, elegant landing page for engineer, and smooth animations using only Vanilla JavaScript.",
+    img: "/khalidPortfolio.png",
+    iconLists: ["/html.jpeg", "/css.png", "/js.png"],
+    link: "https://eng-khalid.netlify.app/",
   },
 ];
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote:"Masha'Allah, incredible creativity! May Allah reward you abundantly for your outstanding work.",
+    name: "Eng/ Khalid Fathy",
+    title: "Engineer",
+    img: "/engkhaled.jpeg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote:"Absolutely beautiful! Your attention to detail and execution is top-notch. Well done!",
+    name: "Nebras Academy Team",
+    title: "Client Project Lead",
+    img: "/nebrasLogo.png",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote:"Highly professional work. Clean, responsive, and delivered exactly as promised. Thank you!",
+    name: "Bidaya Team",
+    title: "Client Project Lead",
+    img: "/bidayaLogo.jpg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote:"The website is fire, bro! Super smooth and looks amazing on all devices. Big respect!",
+    name: "Ahmed Sarhan",
+    title: "Lab Technician",
+    img: "/Ahmed sarhan.jpeg",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Almdrasa",
+    img: "/almdrasa",
+    nameImg: "/almdrasa_logo.jpeg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Homains",
+    img: "Homains",
+    nameImg: "/Homains.jpeg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
+    name: "freelancer",
+    img: "freelancer",
+    nameImg: "/freelancer.png",
+  }
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer Intern ",
+    desc: "Assisted in the development of a web-based platform using Angular at Homains Company, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
     title: "Freelance App Dev Project",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -205,13 +229,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://github.com/abdelrahmanfathyradwan",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/whatsIcon.png",
+    link:"https://wa.me/201220407008",
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/abdelrahmanfathyradwan",
   },
 ];
